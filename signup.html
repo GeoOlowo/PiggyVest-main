@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="styles/.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+      h2{
+        color: blue;
+      }
+      .container{
+        width:400px;
+        height: 700px;
+        background-color: white;
+        border-radius: 10px;
+      }
+      .well{
+        font-size: 14px;
+        text-align: center;
+      }
+      .form-control{
+    background-color: #ccd8ed;
+      }
+      .form-label{
+    color: #02122d;
+    font-weight: bold;
+    font-size: 14px;
+      }
+      h2{
+        font-size: 23px;
+        text-align: center;
+        margin-top: 30px;
+      }
+      .btn{
+        background-color: #062863 ;
+        width:340px;
+      }
+     span{
+       color: white;
+       font-weight: bold;
+     }
+     .alread{
+       color: white;
+     }
+     #already{
+       text-align: center;
+     }
+
+    </style>
+</head>
+<body style="background-color: #062863;">
+    <div class="frm">
+        <img src="image/piggyvest-logo..svg" class="logo mx-auto d-block " >
+        <div class="container">
+           <h2>Create a Secure Account</h2>
+            <p class="well">Welcome to the future of Savings & Investments</p>
+             <div class=" bg-white">
+                    <label for="name" class="form-label ">Full Name</label><br>
+                    <input type="text" class="form-control " id="name" placeholder="Full name" name="name">
+                  </div>
+
+                <div class=" ">
+                  <label for="email" class="form-label">Email Adress</label><br>
+                  <input type="email" class="form-control " id="email" placeholder="Email Adress" name="email">
+                </div>
+                <div class="">
+                    <label for="number" class="form-label">Phone Number</label><br>
+                    <input type="number" class="form-control" id="phone number" placeholder="Phone Number" name="name">
+                  </div>
+                <div class="">
+                  <label for="pwd" class="form-label">Password</label><br>
+                  <input type="password" class="form-control" id="pwd" placeholder=" Password" name="pswd">
+                </div>
+                <div class="">
+                    <label for="number" class="form-label">Referral Phone Number or Promo Code(Optional)</label><br>
+                    <input type="number" class="form-control" id="refno" placeholder="Referral Phone or code" name="name">
+                  </div>
+                  <div class="drop mt-3">
+                  <label for="howdidyouknowaboutus" class="form-label mt-2">How Did You Hear About Us(optional)</label><br>
+                      <select name="Howdoyouknowaboutus"id="" class="form-control"><br>
+                      <option value="11">Click to select</option>
+                      <option value="10">Facebook</option>
+                      <option value="9">Twitter</option>
+                      <option value="8">Instagram</option>
+                      <option value="7">Family/Friend/cowerker/Referrer</option>
+                      <option value="6">Googlesearch</option>
+                      <option value="5">Google playstore</option>
+                      <option value="4">Online BLog</option>
+                      <option value="3">Local Newspaper</option>
+                      <option value="2">At an event</option>
+                      <option value="1">Other</option><br><br>
+                      </select><br><br>
+                      </div>
+                     
+                <button type="submit" class="btn  mt-4 mx-auto d-block"><span>CREATE ACCOUNT</span></button>
+        </div>
+        
+        <P id="already" class="alread mt-4">Already have an accont? Log in</P>
+
+    </div>
+    
+</body>
+</html>
